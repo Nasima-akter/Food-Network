@@ -2,10 +2,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-section{
-    height: 500px;
-    padding-bottom: 100px;
-}
+
 .header-area{
     display: flex;
     background-color: #f7f1e3;
@@ -17,7 +14,7 @@ section{
 .width-half{
     width: 50%;
     margin-left: 5%;
-    padding: 40px;
+    padding: 40px 40px 0 40px;
 }
 .word-color{
     color: #d35400;
@@ -28,7 +25,7 @@ h1{
     color: #34495e;
     margin: 0%;
 }
-h2{
+h2,h3{
     font-weight: 700;
     font-size: 30px;
     color: #34495e;
@@ -64,6 +61,9 @@ p{
 }
 
 /*recipies area*/
+.recipies-area{
+    background-color: white;
+}
 .recipie-meaning {
     width: 40%;
     margin: auto;
@@ -72,7 +72,7 @@ p{
 }
 .title-area{
     display: flex;
-    padding: 20px 40px;
+    padding: 0px 40px;
 }
 .title1 {
     border: 1px solid white;
@@ -85,3 +85,21 @@ p{
     width: 100%;
     height: auto;
 }
+.follower{
+}
+.follower-item {
+    display: flex;
+    box-shadow: 5px 7px 40px gray;
+    margin: 65px 60px;
+    border-radius: 10px;
+}
+.follower1{
+   margin: auto;
+   padding: 35px;
+}
+.follower h1,p{
+    color: rebeccapurple;
+    margin: 0;
+}
+
+
