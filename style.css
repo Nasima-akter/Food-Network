@@ -1,11 +1,35 @@
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header-area{
-    display: flex;
     background-color: #f7f1e3;
+}
+.container{
+    display: flex;
+    padding-bottom: 75px;
+}
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #3f51b5;;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 1s;
+}
+.menu ul li:hover a, .active{
+    color: #d35400;
 }
 .control-width {
     margin-top: 100px;
@@ -29,11 +53,15 @@ h2,h3{
     font-weight: 700;
     font-size: 30px;
     color: #34495e;
-    margin: 0;
+    margin-bottom: 10px;
 }
 p{
     line-height: 1.6;
     padding: 10px;
+}
+.width-half p {
+    padding: 20px 0;
+    margin-bottom: 7%;
 }
 .btn-style {
     text-decoration: none;
@@ -41,6 +69,7 @@ p{
     padding: 13px 31px;
     color: white;
     border-radius: 18px;
+    font-size: 20px;
 }
 .width-half img{
     width: 98%;
@@ -76,7 +105,7 @@ p{
 }
 .title1 {
     border: 1px solid white;
-    box-shadow: 5px 7px 40px gray;
+    box-shadow: 5px 7px 10px gray;
     margin: 10px 20px 20px 20px;
     border-radius: 30px;
     padding: 10px;
@@ -85,11 +114,10 @@ p{
     width: 100%;
     height: auto;
 }
-.follower{
-}
+
 .follower-item {
     display: flex;
-    box-shadow: 5px 7px 40px gray;
+    box-shadow: 5px 3px 14px #e8e1e1;
     margin: 65px 60px;
     border-radius: 10px;
 }
@@ -100,6 +128,19 @@ p{
 .follower h1,p{
     color: rebeccapurple;
     margin: 0;
+}
+
+.footer-area{
+    background-color: #000000;
+}
+.footer-item{
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-item p{
+    margin-bottom: 45px;
+    color: #969083;
 }
 
 
